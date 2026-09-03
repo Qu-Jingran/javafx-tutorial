@@ -1,0 +1,23 @@
+.label {
+    -fx-background-color: rgba(249, 220, 233, 0.94);
+    -fx-background-insets: 0 7px 0 7px;
+    -fx-background-radius: 1em 1em 0 1em;
+    -fx-border-color: #b84d7b;
+    -fx-border-insets: 0 7px 0 7px;
+    -fx-border-radius: 1em 1em 0 1em;
+    -fx-border-width: 1.5px;
+    -fx-font: 15px "Arial";
+    -fx-padding: 8px;
+    -fx-text-fill: #342a2e;
+}
+
+.reply-label {
+    -fx-background-color: rgba(245, 237, 225, 0.95);
+    -fx-background-radius: 1em 1em 1em 0;
+    -fx-border-color: #8b6f5a;
+    -fx-border-radius: 1em 1em 1em 0;
+}
+
+#displayPicture {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.4, 3, 3);
+}
